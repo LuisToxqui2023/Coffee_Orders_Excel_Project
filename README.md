@@ -1,7 +1,8 @@
 # Coffee_Orders_Excel_Project
 
-### Project Overview
+### Project Summary and Steps
 
 In this project, I will clean and analyze the coffee sales data in Excel to gain insights. I will be looking for the trend of the total sales for different coffee types across different years, sales by country, and the top 5 customer. After collecting the data, I will create an interactive dashboard in Excel to better visualize the data with filters, such as timeline, roast type, size, and loyality card.
 
-The first step to create the final dashboard, I 
+The first step to create the final dashboard, I will gather the customer data (Customer Name, Email, and Country) by using XLOOKUP formula to populate the empty columns. After gathering the customer data, I will use the INDEX MATCH to gather the product data (Coffee Type, Roast Type, and Size) to populate the empty columns. After gathering the customer and product data, I will use the multiplication formula on the Unite Price and Quantity to populate the Sales column. As I populated the empty columns with data, I noticed the Coffee Type column only have the abbreviation for the coffee type which may be confusing for the viewer. I decided to create a new column called "Coffee Type Name" with mulitple IF functions to fully spell out the coffee name. I repeated the same step with Roast Type in a new column called "Roast Type Name". After creating the new columns, I started cleaning the data like data formating, number formating, removing duplicates, and more. I then converted the range into a table to later create a pivot table. The pivot table will allow me to create and format multiple visuals and filters. To create the loyality filter, I created a "Loyality" column in the table and used the XLOOKUP formula to populat the column. After creating the visuals and filter, I Copy + Cut the visual and filters into a new worksheet to create the dashboard. After positioning the visuals and filters, I make sure all the filter are connected through the Report Connection to affect ALL visuals instead of one. 
+
